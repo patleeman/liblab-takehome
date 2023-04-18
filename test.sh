@@ -1,3 +1,3 @@
 #!/bin/bash#!/bin/bash
 
-python -m unittest discover . "test_*"
+poetry run python -m unittest discover src/ "test_*"

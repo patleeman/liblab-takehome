@@ -4,9 +4,20 @@ https://liblab.com/take-home-project
 
 # Quickstart
 
+Install the package:
 
+```
+pip install pl-liblab-lotr-sdk
+```
 
+Use the package:
 
+```python
+from lotr import client
+
+client = Client(key=<api_key>)
+client.get_movies()
+```
 
 
 # Developing
@@ -23,3 +34,6 @@ Run tests:
 ./test.sh
 ```
 
+# Release
+
+Follow instructions [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
