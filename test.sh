@@ -1,3 +1,3 @@
 #!/bin/bash#!/bin/bash
 
-poetry run python -m unittest discover src/ "test_*"
+poetry run python -m unittest discover tests "test_*"

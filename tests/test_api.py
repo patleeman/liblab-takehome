@@ -4,7 +4,7 @@ import unittest
 from requests.models import HTTPError
 from dotenv import load_dotenv
 
-from .api import Client
+from pl_liblab_lotr_sdk.api import Client
 
 # Load the API key
 load_dotenv()

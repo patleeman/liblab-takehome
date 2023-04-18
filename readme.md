@@ -23,7 +23,7 @@ client.get_movies()
 # Developing
 
 To develop his library:
-
+0. Install [Poetry](https://python-poetry.org/)
 1. Copy `.env.sample` to `.env` then add your API key.
 2. Create a virtual env `python -m venv .venv`
 3. Activate venv `source .venv/bin/activate`
@@ -36,4 +36,6 @@ Run tests:
 
 # Release
 
-Follow instructions [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
+```python
+poetry publish
+```
